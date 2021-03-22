@@ -20,3 +20,12 @@ let bono20 = sueldo * Number (0.20);
 let bono15 = sueldo * Number (0.15);
 let bono10 = sueldo * Number (0.10);
 
+let porcentaje2a5anios = Number (20);
+let porcentaje5anios = Number (30)
+let descuentoAntiguedad = 0;
+
+if (antiguedad >= 2  && antiguedad < 5) {
+   alert (`Por antiguedad le corresponde un descuento del ${dto2a5anios}%`); 
+}else if (antiguedad >= 5) {
+    
+}
