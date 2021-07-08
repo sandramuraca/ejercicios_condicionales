@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        /*Definí una función avanzarSemaforo que reciba como argumento un string colorActual y devuelva un string con el siguiente color del semáforo, siguiendo el orden: verde -> amarillo -> rojo -> verde*/
+
+        
+        const avanzarSemaforo = (colorActual) =>{
+            if (colorActual === "verde"){
+                return ("amarillo");
+            } else if (colorActual === "amarillo"){
+                return ("rojo");
+            } else if (colorActual === "rojo"){
+                return ("verde");
+            } 
+        }
+
+        // con el console.log (llamar a la funcion) puedo ver lo que devuelve el return
+        console.log(avanzarSemaforo("rojo"));
+        console.log(avanzarSemaforo("verde"));
+        console.log(avanzarSemaforo("amarillo"));
+
+        /* si hago esto guardo el resultado del return en una variable que luego puedo reutilizar
+        
+        const verde = avanzarSemaforo("rojo");
+        const amarillo = avanzarSemaforo("verde");
+        const rojo = avanzarSemaforo("amarillo");
+
+        console.log(verde);
+        console.log(amarillo);
+        console.log(rojo);*/
+
+
+
+    </script>
+</body>
+</html>
