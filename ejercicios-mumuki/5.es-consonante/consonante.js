@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-
-    <script>
-        /*
+  /*
         Definí una función esConsonante que reciba como argumento un string letra y nos indique si letra es una consonante.
         */
 
@@ -25,7 +13,3 @@
         console.log(esConsonante("a"));
         console.log(esConsonante("n"));
         console.log(esConsonante("e"));
-
-    </script>
-</body>
-</html>
